@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "meteo",
+  "version": "${version}",
+  "name": "Метеорология",
+  "description": "Радары, структура грозовых облаков и разные типы гроз.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.meteo.Meteo"],
+    "client": ["com.example.meteo.MeteoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ILI", "IRI", "III"],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "L": { "item": "minecraft:lightning_rod" },
+    "R": { "item": "minecraft:redstone_block" }
+  },
+  "result": { "item": "meteo:radar" }
+}
